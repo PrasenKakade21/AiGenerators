@@ -7,7 +7,7 @@ body {
 
 #main-sec {
     /* background-image: url(/Background\ image.jpg) ; */
-    background: linear-gradient(#000000b0, #4e4e4e58, #00000071), url(/images/Background\ image.jpg);
+    background: linear-gradient(#000000b0, #4e4e4e58, #00000071), url(images/Background\ image.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
