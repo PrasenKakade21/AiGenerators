@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+}
+
+.top-sec {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bgimage {
+    background: linear-gradient(#000000b0, #4e4e4e58, #00000071), url(/images/Background\ image.jpg);
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* 949398 */
+header {
+    background-color: #000000;
+    
+}
+
+.navbar {
+    border-bottom: 1px solid #f4df4e;
+    padding: 0px 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+#site-logo{
+    margin: 0;
+    background-color: #000000;
+    display: flex;
+    padding: 14px 14px;
+
+}
+.logo {
+    float: left;
+    color: #f4df4e;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    overflow: hidden;
+    background-color: #000000;
+    text-align: center;
+    padding: 0px 5px 0px 0px;
+    text-decoration: none;
+transition: 0.2s;
+}
+.logo:hover{
+    color: #ffffff;
+}
+
+.logo-last{
+    float: left;
+
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    overflow: hidden;
+    background-color: #000000;
+    text-align: center;
+    padding: 0px 5px 0px 0px;
+    text-decoration: none;
+
+}
+.logo-last:hover{
+    color: #f4df4e;
+}
+#other-links {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000000;
+
+}
+#other-links li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#other-links li a:hover {
+    background-color: #f4df4e;
+    color: #000000;
+
+}
+
+#other-links  li {
+    float: right;
+}
+
+.hero {
+    color: #f4df4e;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.hero p {
+
+    margin: 0px
+}
+
+
+
+.sub-hero {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+
+    font-size: 20px;
+}
+
+.searchbar {
+    width: 100%;
+
+    padding: 0px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbar form {
+    background-color: #ffffff;
+    width: 600px;
+    height: 50px;
+    display: flex;
+}
+
+.searchbar form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 25px;
+
+
+}
+
+.searchbar form button {
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    background-color: #f7e155;
+
+}
+
+.filters {
+    display: flex;
+    float: right;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    color: #ffffff;
+}
+.filters button{
+    background-image: url(/images/filter-icon.jpg);
+    background-size: cover;
+    background-color:transparent;
+    border: none;
+    margin: auto;
+    height: 46px;
+    width: 40px;
+
+
+}
+
+.filters button:hover{
+cursor: pointer;
+}
+.output-box{
+    
+    height: 350px;
+    width: 700px;
+    margin: auto;
+    overflow: scroll;
+    background-color: #ffffff;
+}
+.output-box p{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.info-sec{
+    margin: 0px;
+    padding: 0vmax 10vmax 10vmax 10vmax;
+    background-color: #ffffff;
+}
+
+.info-title {
+    color: #ffcc00;
+    padding: 50px 0px 0px 50px;
+    margin: 0px;
+    font-size: 6vmin;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.info-text {
+    /* color: #ffffff; */
+    color: #000000;
+
+    margin: 0px;
+    padding: 20px 50px 10px 50px;
+    font-size: 2.5vmin;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    margin: 0px;
+    border-top:1px solid #f4df4e;
+    background-color: #020023;
+    padding: 5vh;
+}
+.foot p{
+    margin: 0px;
+
+color: #ffffff;
+text-align: center;
+}
+.credit {
+    text-decoration: none;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    color: #ffffff;
+}
